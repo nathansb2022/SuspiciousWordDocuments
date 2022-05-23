@@ -13,6 +13,10 @@ This only works on Windows 10 and not windows 11. To work properly, save both fi
 # How to use
 Link number 1 must be copied and pasted to the Window's Search Box. Document1 cannot be opened at the same time of Window's Search Box execution. If testing, remember to kill Document1.
 
+Add your IP, Directory, and filename to Document1. Note: commands could be encoded in base64.
+
+Both files saved to Downloads.
+
 # Example .cmd
 @echo off
 
