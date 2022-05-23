@@ -17,6 +17,8 @@ Add your IP, Directory, and filename to Document1. Note: commands could be encod
 
 Both files saved to Downloads.
 
+If you edit RealJuicyWebLinks, the suspicious link may need to be updated as well back to the initial.
+
 # Example .cmd
 @echo off
 
