@@ -8,7 +8,7 @@ The RealJuicyWebLinks.docx file has a link that executes a PowerShell Command co
 # Remember
 Document1 is saved in white font. 
 
-This only works on Windows 10 and not windows 11. To work properly, save both files to downloads. Add your hosted IP, directory, and file that you wished to be parsed/saved to the startup directory.
+This only works on Windows 10 and not windows 11. To work properly, save both files to downloads. Add your hosted IP, directory, and file to Document1 that you wished to be parsed/saved to the startup directory.
 
 # How to use
 Link number 1 must be copied and pasted to the Window's Search Box. Document1 cannot be opened at the same time of Window's Search Box execution. If testing, remember to kill Document1.
