@@ -3,7 +3,7 @@ You have received two Microsoft Word documents. Are the links safe?
 
 # Description
 Things aren't always what they seem when it comes to links. One document contains several links to different things on the web. The other looks like another plain document.
-The RealJuicyWebLinks.docx file has a link that executes a PowerShell Command contained in wordfornotes.docx. Scenario: The wordfornotes commands are a way to establish persistence by grabbing the contents of a file from a hosted webserver and it's deposited in the user's Startup folder as .cmd. The .cmd example below is made to parse a file that could contain a reverse shell. A shutdown /l command is the last step to execute the .cmd file upon login from the user.
+The RealJuicyWebLinks.docx file has a link that executes a PowerShell Command contained in wordfornotes.docx. Scenario: The wordfornotes commands are a way to establish persistence by grabbing the contents of a file from a hosted webserver and it's deposited in the user's Startup folder as .cmd. The .cmd example below is made to parse a file that could contain malicious code to be ran at startup. A shutdown /l command is the last step to execute the .cmd file upon login from the user.
 
 # Remember
 wordfornotes.docx is saved in white font. 
